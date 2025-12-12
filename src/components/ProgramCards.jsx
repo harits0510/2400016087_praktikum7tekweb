@@ -35,7 +35,7 @@ export default function ProgramCards() {
           {programs.map((p) => (
             <div
               key={p.title}
-              className={`${p.color} p-6 rounded-xl shadow-md border transition hover:shadow-lg flex flex-col h-full`}
+              className={`${p.color} p-6 rounded-xl shadow-md transition hover:shadow-lg flex flex-col h-full`}
             >
               <img src={p.img} alt={p.title} className="w-12 md:w-14 mb-4" />
 

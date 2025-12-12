@@ -26,7 +26,7 @@ export default function ScheduleSection() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
 
             {/* Morning Session */}
-            <div className="p-6 rounded-xl bg-gradient-to-b md:bg-gradient-to-r from-yellow-200 to-green-200 shadow-sm border">
+            <div className="p-6 rounded-xl bg-gradient-to-b md:bg-gradient-to-r from-yellow-200 to-green-200 shadow-sm">
               <h3 className="font-semibold flex items-center gap-2">
                 <img src="src/assets/Jam.png" className="w-5 md:w-6" alt="Jam" />
                 Sesi Pagi
@@ -42,7 +42,7 @@ export default function ScheduleSection() {
             </div>
 
             {/* Evening Session */}
-            <div className="p-6 rounded-xl bg-gradient-to-b md:bg-gradient-to-r from-yellow-200 to-green-200 shadow-sm border">
+            <div className="p-6 rounded-xl bg-gradient-to-b md:bg-gradient-to-r from-yellow-200 to-green-200 shadow-sm">
               <h3 className="font-semibold flex items-center gap-2">
                 <img src="src/assets/Jam.png" className="w-5 md:w-6" alt="Jam" />
                 Sesi Sore

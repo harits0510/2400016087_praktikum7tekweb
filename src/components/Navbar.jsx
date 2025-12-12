@@ -10,8 +10,8 @@ export default function Navbar() {
         
         {/* Logo */}
         <div className="flex items-center gap-3">
-          <img src="src/assets/Logonav.png" className="w-7 md:w-8" alt="Logo" />
-          <img src="src/assets/nav.png" className="h-6 md:h-7" alt="Ruang Ekspresi" />
+          <img src="/assets/Logonav.png" className="w-7 md:w-8" alt="Logo" />
+          <img src="/assets/nav.png" className="h-6 md:h-7" alt="Ruang Ekspresi" />
         </div>
 
         {/* DESKTOP MENU */}

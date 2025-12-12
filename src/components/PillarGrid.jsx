@@ -3,25 +3,25 @@ export default function PillarGrid() {
     {
       title: "Ideation",
       desc: "Mengembangkan ide-ide kreatif dan inovatif melalui brainstorming dan workshop ideation yang terarah.",
-      img: "src/assets/PilarIdeation.png",
+      img: "/assets/PilarIdeation.png",
       color: "bg-yellow-200",
     },
     {
       title: "Creation",
       desc: "Mewujudkan ide menjadi karya nyata dengan dukungan tools dan teknologi terkini.",
-      img: "src/assets/PilarCreation.png",
+      img: "/assets/PilarCreation.png",
       color: "bg-green-200",
     },
     {
       title: "Collaboration",
       desc: "Bekerja sama dalam tim multidisiplin untuk menciptakan solusi yang komprehensif.",
-      img: "src/assets/PilarCollaboration.png",
+      img: "/assets/PilarCollaboration.png",
       color: "bg-blue-200",
     },
     {
       title: "Guidance & Support",
       desc: "Mendapat bimbingan dari mentor berpengalaman dan akses ke berbagai resources pembelajaran.",
-      img: "src/assets/PilarGuidance.png",
+      img: "/assets/PilarGuidance.png",
       color: "bg-pink-200",
     },
   ];
@@ -29,7 +29,7 @@ export default function PillarGrid() {
   return (
     <section className="w-full bg-white">
       <div className="max-w-7xl mx-auto px-6 md:px-12 mt-16 md:mt-24">
-        
+
         {/* Heading */}
         <h2 className="text-center text-2xl font-semibold">
           Empat Pilar <span className="text-blue-600">Ruang Ekspresi</span>

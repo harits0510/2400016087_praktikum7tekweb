@@ -2,7 +2,7 @@ export default function HeroSection() {
   return (
     <section className="w-full bg-white pt-28 md:pt-32">
       <div className="max-w-7xl mx-auto px-6 md:px-12 py-20 grid md:grid-cols-2 gap-12 items-center">
-        
+
         {/* TEXT */}
         <div>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight text-gray-900">
@@ -31,7 +31,7 @@ export default function HeroSection() {
         {/* IMAGE */}
         <div className="flex justify-center md:justify-end">
           <img
-            src="src/assets/HeroSection.png"
+            src="/assets/HeroSection.png"
             className="w-64 sm:w-72 md:w-96 lg:w-[26rem] max-w-full rounded-xl shadow-lg object-cover"
             alt="Hero"
           />

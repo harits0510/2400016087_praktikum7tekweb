@@ -18,7 +18,7 @@ export default function ScheduleSection() {
 
           {/* Label */}
           <div className="flex items-center justify-center gap-2 text-blue-600 font-semibold mb-10">
-            <img src="src/assets/Kalender.png" className="w-5 md:w-6" alt="Kalender" />
+            <img src="/assets/Kalender.png" className="w-5 md:w-6" alt="Kalender" />
             Setiap Sabtu
           </div>
 
@@ -28,7 +28,7 @@ export default function ScheduleSection() {
             {/* Morning Session */}
             <div className="p-6 rounded-xl bg-gradient-to-b md:bg-gradient-to-r from-yellow-200 to-green-200 shadow-sm">
               <h3 className="font-semibold flex items-center gap-2">
-                <img src="src/assets/Jam.png" className="w-5 md:w-6" alt="Jam" />
+                <img src="/assets/Jam.png" className="w-5 md:w-6" alt="Jam" />
                 Sesi Pagi
               </h3>
 
@@ -44,7 +44,7 @@ export default function ScheduleSection() {
             {/* Evening Session */}
             <div className="p-6 rounded-xl bg-gradient-to-b md:bg-gradient-to-r from-yellow-200 to-green-200 shadow-sm">
               <h3 className="font-semibold flex items-center gap-2">
-                <img src="src/assets/Jam.png" className="w-5 md:w-6" alt="Jam" />
+                <img src="/assets/Jam.png" className="w-5 md:w-6" alt="Jam" />
                 Sesi Sore
               </h3>
 

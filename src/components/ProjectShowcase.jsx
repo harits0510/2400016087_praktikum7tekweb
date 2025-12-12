@@ -6,7 +6,7 @@ export default function ProjectShowcase() {
       category: "UI/UX Design",
       title: "Creative Portfolio Platform",
       desc: "Platform showcase karya mahasiswa dengan sistem rating dan feedback komunitas",
-      img: "src/assets/ShowCase.png",
+      img: "/assets/ShowCase.png",
       bg: "bg-pink-50",
       team: [
         { name: "Budi Santoso", role: "Frontend Developer" },
@@ -19,7 +19,7 @@ export default function ProjectShowcase() {
       category: "Web Development",
       title: "Creative Portfolio Platform",
       desc: "Platform showcase karya mahasiswa dengan sistem rating dan feedback komunitas",
-      img: "src/assets/ShowCase.png",
+      img: "/assets/ShowCase.png",
       bg: "bg-green-50",
       team: [
         { name: "Budi Santoso", role: "Frontend Developer" },
@@ -32,7 +32,7 @@ export default function ProjectShowcase() {
       category: "Mobile Development",
       title: "Creative Portfolio Platform",
       desc: "Platform showcase karya mahasiswa dengan sistem rating dan feedback komunitas",
-      img: "src/assets/ShowCase.png",
+      img: "/assets/ShowCase.png",
       bg: "bg-yellow-50",
       team: [
         { name: "Budi Santoso", role: "Frontend Developer" },
@@ -104,8 +104,9 @@ export default function ProjectShowcase() {
                 {current.team.map((m, i) => (
                   <div className="flex items-center gap-3" key={i}>
                     <img
-                      src="src/assets/TimPembuat.png"
+                      src="/assets/TimPembuat.png"
                       className="w-10 h-10 rounded-full object-cover"
+                      alt="Profile"
                     />
                     <div>
                       <p className="font-semibold text-sm">{m.name}</p>
@@ -117,7 +118,7 @@ export default function ProjectShowcase() {
             </div>
 
             <button className="mt-6 flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-xl shadow">
-              <img src="src/assets/Vector.png" className="w-4" />
+              <img src="/assets/Vector.png" className="w-4" alt="Arrow" />
               Live Demo
             </button>
           </div>
@@ -127,6 +128,7 @@ export default function ProjectShowcase() {
             <img
               src={current.img}
               className="rounded-2xl border-4 border-white w-full object-cover"
+              alt="Project"
             />
           </div>
         </div>
